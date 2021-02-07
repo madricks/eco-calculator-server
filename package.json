@@ -1,0 +1,29 @@
+{
+  "name": "eco-calculator-server",
+  "version": "1.0.0",
+  "description": "Eco global survival production cost calculator server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madricks/eco-calculator-server.git"
+  },
+  "author": "madricks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madricks/eco-calculator-server/issues"
+  },
+  "homepage": "https://github.com/madricks/eco-calculator-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7"
+  }
+}
